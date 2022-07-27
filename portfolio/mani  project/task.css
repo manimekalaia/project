@@ -1,0 +1,103 @@
+
+
+/* body */
+
+body {font-family: "Lato", sans-serif;
+  }
+
+.sidebar {
+  height: 100%;
+  width: 150px;
+  position: fixed;
+  z-index: 1; 
+  top: 0;
+  left: 2;
+  background-image: url(aa.jpg);
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(6, 8, 10);
+  display: block;
+}
+
+.sidebar a:hover {
+  color: rgb(0, 0, 0);
+}
+
+.main {
+  /*margin-left: 210px;  Same as the width of the sidenav */
+  padding: 0;
+ /* background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),url(".jpg");*/ 
+  color:black;
+  text-align: center;
+  height: 100%;
+  width:100%;
+  background-image: url(xz.jpg);
+  background-size: 4000px;
+  background-repeat:no-repeat;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+.user-logo {
+  height: 150px;
+  width: 150px;
+  padding: 25px;
+}
+.img1{
+  height: 150px;
+  width:150px;
+  border: 8px double black;
+  border-radius: 50%;
+  border-color: black;
+  
+}
+.h1{
+    font-size:50px;
+    font-family:border-radius;
+    border: 20px;
+    
+}
+.button{
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: rebeccapurple;
+  display: block;
+  background-color: rgb(187, 204, 212);
+  
+
+
+}
+
+.button a:hover {
+  color: rgb(206, 121, 223);
+}
+.bi{
+  color: rgb(0,0,0);
+}
+.love{  
+  color: rgb(255, 0, 0);
+  text-align: center;
+}
+h1{
+  text-align: center;
+}
+.imga{
+  height: 570px;
+  width:514px;
+}
+h4{
+  color: rgb(1, 3, 7);
+}
+h5{
+  color: rgb(10, 8, 14);
+  size:15px;
+}
